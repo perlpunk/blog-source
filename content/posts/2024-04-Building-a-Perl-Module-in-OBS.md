@@ -1,8 +1,10 @@
 ---
 title: 'Building a Perl Module in OBS'
-date: 2024-04-11T20:45:17+02:00
-tags: ["software engineering"]
-
+date: '2024-04-11T20:45:17+02:00'
+tags: [software engineering, open build service, perl]
+#type: post
+publishDate: '2024-04-11 22:46:35+02:00'
+lastmod: '2024-04-11 22:46:35+02:00'
 draft: false
 ---
 
@@ -28,7 +30,7 @@ Your perl module might already be in the list!
 First you should create an account [here](https://build.opensuse.org/). This is
 not covered in this post, but should be easy enough :)
 
-Note that OBS website has two layouts. For smaller screens, there is a
+Note that the OBS website has two layouts. For smaller screens, there is a
 horizontal bar at the bottom. Otherwise there will be a vertical bar on the
 left.
 
@@ -263,6 +265,8 @@ Now with every commit to the `main` branch the OBS project should be rebuilt.
 
 It's also possible to be notified of build failures for projects. Look at the
 "Watchlist" and "Notifications" items in the top navigation.
+
+You can download the generated rpm package under "Download package".
 
 I hope that was helpful.
 

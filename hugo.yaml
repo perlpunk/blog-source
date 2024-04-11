@@ -24,6 +24,7 @@ outputs:
 params:
   subtitle: 
   logo: avatar.jpeg
+  favicon: avatar.jpeg
   commit: false
   rss: true
   comments: true
