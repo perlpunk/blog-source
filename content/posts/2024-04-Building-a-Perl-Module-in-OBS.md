@@ -18,10 +18,10 @@ In this post I want to show you how you can setup a project to build your
 perl module(s) in OBS. Some parts might not be that intuitive, so I documented
 everything with screenshots.
 
-In my next post I will show how you can setup your package to automatically
+In my [next post](../2024-04-obs-as-a-ci-for-perl-modules/) I will show how you can setup your package to automatically
 build on pull requests.
 
-In another post, I want to show how we at SUSE actually fetch and update a
+In [another post](../2024-04-how-suse-cpan-modules-are-updated/), I want to show how we at SUSE actually fetch and update a
 large list of perl modules automatically in our `devel:languages:perl` repo.
 Your perl module might already be in the list!
 
